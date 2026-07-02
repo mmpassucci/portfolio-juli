@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+      font-family: "SN Pro", sans-serif;
+       width: 100vw;
+}
+
+.headercontaniner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+     width: 100%;
+    height: 20vh;
+   
+}
+
+.headercontaniner img {
+    width: 130px;
+    height: 130px;
+    margin-left: 8px;
+}
+
+.headercontaniner nav {
+    padding-right: 20px;
+}
+
+.headercontaniner a {
+    font-size: 0.8em;
+    text-decoration: none;
+    padding-right: 8px;
+    color: #401F34;
+}
+
+/* carrusel */
+
+#carouselExampleCaptions {
+    margin-bottom: 10px;
+}
+#carouselExampleCaptions .carousel-inner {
+    width: 100vw;
+    max-height: 300px;
+    overflow: hidden;
+    margin: 0;
+}
+.carousel-item img {
+    width: 100%;
+  height: 300px;
+}
+
+
+/* seccion #bio */
+
+#bio .containerbio {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 50vh;
+    
+}
+#bio img {
+    width:200px;
+    height: 200px;
+    border-radius: 150px;
+}
+#bio .con-text-bio {
+  align-items: center;
+  max-width: 300px;
+}
+#bio p {
+    font-size: 10px;
+
+    text-align: center;
+
+}
